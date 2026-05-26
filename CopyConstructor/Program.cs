@@ -48,6 +48,12 @@ namespace CopyConstructor
             student s1 = new student(2, "siri");
             s1.studentDisplay();
             student.studentcollege();
+
+            employee emp = new employee(1, "siri", 50000);
+            emp.employeeDisplay();
+            employee.companyDisplay();
+            emp.hike();
+
         }
     }
 }
